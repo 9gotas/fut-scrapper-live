@@ -2,32 +2,7 @@
 <html>
 <head>
     <title>Script de Leitura de Jogos de Futebol em Tempo Real</title>
-    <style>
-        h1 {
-            font-size: 36px;
-            font-weight: bold;
-            text-align: center;
-            margin-top: 50px;
-            margin-bottom: 30px;
-        }
-        h2 {
-            font-size: 24px;
-            font-weight: bold;
-            margin-top: 30px;
-            margin-bottom: 20px;
-        }
-        p {
-            font-size: 18px;
-            line-height: 1.5;
-            margin-bottom: 20px;
-        }
-        code {
-            font-size: 18px;
-            background-color: #f2f2f2;
-            padding: 5px;
-            border-radius: 5px;
-        }
-    </style>
+
 </head>
 <body>
     <h1>Script de Leitura de Jogos de Futebol em Tempo Real</h1>
