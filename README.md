@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Script de Leitura de Jogos de Futebol em Tempo Real</title>
 
 </head>
 <body>
