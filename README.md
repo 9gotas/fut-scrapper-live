@@ -1,19 +1,67 @@
-<!DOCTYPE html>
-<html>
-<head>
+# Version 1.1
 
-</head>
-<body>
-    <h1>Script de Leitura de Jogos de Futebol em Tempo Real</h1>
-    <p>Este script em Python permite a leitura em tempo real de jogos de futebol e envia para o Telegram apenas os jogos que passarem pelo filtro escolhido pelo usuário.</p>
-    <h2>Como funciona?</h2>
-    <p>O script utiliza a API do <a href="https://www.football-data.org/">Football Data</a> para obter informações sobre os jogos de futebol em tempo real. O usuário pode escolher o filtro desejado, como por exemplo, jogos de determinado campeonato, times específicos ou jogos em uma determinada data.</p>
-    <p>O script é executado em segundo plano e verifica constantemente as informações dos jogos. Quando um jogo que atende ao filtro escolhido pelo usuário é encontrado, o script envia uma mensagem para o Telegram com as informações do jogo.</p>
-    <h2>Como usar?</h2>
-    <p>Para utilizar o script, é necessário ter uma conta no Telegram e criar um bot. Em seguida, é necessário obter o token do bot e o ID do chat para onde as mensagens serão enviadas.</p>
-    <p>Após obter as informações necessárias, basta editar o arquivo <code>config.ini</code> com as informações do bot e do chat, além de escolher o filtro desejado.</p>
-    <p>Por fim, execute o arquivo <code>main.py</code> e o script começará a enviar as informações dos jogos que atendem ao filtro escolhido para o chat do Telegram.</p>
-    <h2>Conclusão</h2>
-    <p>Com este script, é possível acompanhar os jogos de futebol em tempo real de forma automatizada e personalizada. Além disso, o uso da API do Football Data permite obter informações precisas e atualizadas sobre os jogos. Aproveite e faça o download do script agora mesmo!</p>
-</body>
-</html>
+<b>tldr</b>: Adds accounts via phone number and API. If you want to add accounts only via phone, then scroll to the end. If you want more free projects like this, then please support me!
+
+# Update Features
+
+- Fixed bug with scraping. You can now scrape from public groups of any size.
+- Fixed bug with addbyid.py. You can now start adding by IDs again.
+
+# Features
+
+* ADDS IN BULK[by username]
+* Scrapes and adds to public groups
+* Adds 50-60 members on an average
+* Works in Windows systems
+* You can run unlimited accounts at the same time in order to add members
+* CSV files auto-distributer based on number of accounts to use
+* Powerful scraping tool that can scrape active members from any public group
+* You can add members both by username and by user ID
+* Least chances of account ban
+* Script auto-joins public group from all accounts for faster adding
+* Filters banned accounts and remove them, making things easy
+* It can also store unlimited accounts for adding purposes
+* Adding scripts launches automatically based on number of accounts to use
+
+# How to use
+
+<b>Suggestion: It is better to add by ID because if you add by username only users having usernames will be added. Moreover, it is slow</b>
+
+* Install Requirements
+
+`pip install -r requirements.txt`
+
+* Read the complete tutorial `HOW_TO_USE.txt` and use it
+
+* Add your accounts to add and scrape members
+
+`python manager.py`
+
+* Scrape members
+
+`python scraper.py`
+
+* Add members
+
+`python tsadder.py`
+
+# Note
+
+Sometimes users may not get added at all, this may be because the account is probably limited or you entered a channel. Try with another account. 
+
+# Buy me a coffee
+
+https://www.buymeacoffee.com/denizshabani
+
+# Warning
+
+* This tool is official and completely free to use. Do not buy if anyone tries to sell by copying script
+
+# News
+
+* I have also created a scraper and adder which lets you add accounts only via phone number(no api needed). If you need it contact me:
+ 
+[![Telegram Contact](https://img.shields.io/badge/Telegram-Contact-brightgreen)](https://t.me/noneofyourbusiness69) 
+* If you have any problems regarding the script then write it in this groupchat:
+
+[![Telegram Group](https://img.shields.io/badge/Telegram-Group-brightgreen)](https://t.me/GitHubScriptsHelp)
